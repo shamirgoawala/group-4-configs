@@ -1,4 +1,4 @@
-#- import_playbook: initial.yml
+- import_playbook: initial.yml
 #- import_playbook: ./docker-ansible/docker-playbook.yml
 - import_playbook: ./kube-cluster/kube-dependencies.yml
 - import_playbook: ./kube-cluster/master.yml
